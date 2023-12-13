@@ -20,7 +20,7 @@ public class RandomQuotesControllerTest {
     private MockMvc mvc;
 
     @Autowired
-    private AuthorRepository authorRepository;
+    private AuthorRepository auorRepository;
 
     @Test
     public void getHello() throws Exception {
